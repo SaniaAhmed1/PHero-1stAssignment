@@ -60,6 +60,7 @@ header {
 .banner {
     text-align: right;
     color: #FFFFFF;
+    margin-top:5%;
     margin-left: 55%;
     margin-right: 5%;
     width: 40%;
@@ -246,7 +247,7 @@ header {
     width: 50%;
     height: auto;
     margin: 50px 20px 20px  ; 
-    padding: 10px;
+    padding: 20px;
 }
 .footer-info h3{
     font-size:25px;
@@ -256,6 +257,7 @@ header {
 .footer-info p {
     font-size: 14px;
     color:#FFFFFF;
+    padding: 10px;
 }
 .footer-icons {
     margin-top: 10px;
@@ -275,7 +277,7 @@ header {
 }
    
 .contact-mail{
-    padding: 10px;
+    padding: 20px;
 }
 .contact-mail input{
     margin-top: 10px;
