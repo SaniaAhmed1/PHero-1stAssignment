@@ -6,7 +6,7 @@
 }
 
 header {
-    background-image: url('/images/banner3.png');
+    background-image: url('./images/banner3.png');
     background-size:cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -143,7 +143,7 @@ header {
 
 .pre-year-txt-list ul{
     text-align: left;
-    list-style: url('/images/icons/correct.png');
+    list-style: url('./images/icons/correct.png');
     list-style-position: inside; 
 }
 .pre-year-txt-list ul li{
@@ -196,7 +196,7 @@ header {
 }
 
 .linear-bg {
-    background: url('/images/watch.png'),
+    background: url('./images/watch.png'),
     linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
     background-size:cover;
     background-blend-mode: overlay;
