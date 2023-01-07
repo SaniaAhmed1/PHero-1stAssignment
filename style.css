@@ -2,12 +2,13 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    /* border: 5px solid red;   */
+    /* border: 2px solid red;  */
 }
 
 header {
     background-image: url('/images/banner3.png');
-    background-size: cover;
+    background-size:cover;
+    background-repeat: no-repeat;
     height: 100vh;
 }
 
@@ -18,7 +19,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .nev-logo {
@@ -41,8 +41,6 @@ header {
 
 .nev-list ul li {
     list-style: none;
-    text-decoration: none;
-
 }
 
 .nev-list ul li a {
@@ -55,33 +53,36 @@ header {
 .nev-items {
     display: flex;
     gap: 15px;
-    margin: 30px 30px;
+    margin: 10px 30px;
 }
 
 /* adding banner styles */
 .banner {
     text-align: right;
     color: #FFFFFF;
-    margin-left: 49%;
+    margin-left: 55%;
+    margin-right: 5%;
+    width: 40%;
+    height: 75%;
 }
 
 .banner-title {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 700px;
-    padding: 10px;
-    margin-top: 10px;
+    padding: 5px;
     margin-bottom: 10px;
 }
 
 .banner-title span {
-    padding: 10px;
-    color: rgb(22, 97, 167);
+    padding: 5px;
+    color:  #005FAC;
     border-radius: 5px;
     background-color: #FFFFFF;
 }
 
 .banner-description {
-    padding: 10px;
+    padding: 5px;
+    color:#444343;
 }
 
 .banner-btn button {
@@ -89,16 +90,17 @@ header {
     height: 45px;
     margin-top: 5px;
     margin-right: 10px;
+    margin-bottom: 10px;
     padding: 10px;
     border: none;
     border-radius: 10px;
     background-color: #FFFFFF;
-    color: rgb(22, 97, 167);
+    color: #005FAC;
     box-shadow: 10px 5px 5px rgba(23, 23, 26, 0.89);
 }
 
 .banner-btn button:hover {
-    background-color: rgb(22, 97, 167);
+    background-color:#005FAC;;
     color: #FFFFFF;
 }
 
@@ -117,6 +119,7 @@ header {
 
 .pre-year-txt {
     width: 50%;
+    text-align: left;
 }
 
 .pre-year-txt h3,
@@ -127,35 +130,29 @@ header {
 
 .pre-year-txt p,
 .pre-year-txt-list-item ul li {
-    color: rgb(146, 122, 122)
+    color: #444343
 }
 
 .pre-year-txt-list {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 5px;
     flex-direction: row;
 
 }
 
-.pre-year-txt-check {
-    display: flex;
-    flex-direction: column;
-
-}
-
-.pre-year-txt-check img {
-    padding: 5px;
-}
-
-.pre-year-txt-list ul li {
+.pre-year-txt-list ul{
     text-align: left;
-    list-style: none;
-    margin: 5px;
-    padding: 5px;
+    list-style: url('/images/icons/correct.png');
+    list-style-position: inside; 
 }
-
+.pre-year-txt-list ul li{
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px rgba(23, 23, 26, 0.89);
+    margin-bottom: 5px;
+}
 /* adding plans style  */
 .plan-sec {
     text-align: center;
@@ -176,7 +173,7 @@ header {
 }
 
 .plans h5 {
-    color: rgb(146, 122, 122);
+    color:#444343;
 }
 
 .plan1 img,
@@ -199,22 +196,24 @@ header {
 }
 
 .linear-bg {
-    background: url('/images/linear-bg.jpg'),
-        linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
-    background-size: cover;
+    background: url('/images/watch.png'),
+    linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    background-size:cover;
     background-blend-mode: overlay;
-    padding: 50px;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 55px;
     width: 70%;
-    height: 42%;
+    height: 50%;
     border-radius: 8px;
     display: flex;
     align-items: flex-start;
+    flex-wrap: wrap;
 }
 
-/* .linear-bg-sec-items {
-    margin: 10px;
-    padding: 10px;
-} */
+ .linear-bg-sec-items {
+    margin-top: 5px;
+} 
 
 .linear-bg-sec-items h2 {
     color: #FFFFFF;
@@ -233,5 +232,69 @@ header {
     border-radius: 10px;
     background-color: #FFFFFF;
     color: rgb(22, 97, 167);
+}
+/* adding footer styles */
+.footer-sec{
+    width: 100%;
+    min-height: 100vh;
+    background: #151414;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-txt{
+    width: 50%;
+    height: auto;
+    margin: 50px 20px 20px  ; 
+    padding: 10px;
+}
+.footer-info h3{
+    font-size:25px;
+    font-weight: 700;
+}
+
+.footer-info p {
+    font-size: 14px;
+    color:#FFFFFF;
+}
+.footer-icons {
+    margin-top: 10px;
+    padding: 5px;
+    display: flex;
+    gap: 10px;
+}
+.footer-form{
+    width: 30%;
+    padding: 10px;
+    margin: 50px 20px 20px  ; 
+}
+.footer-form label{
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+   
+.contact-mail{
+    padding: 10px;
+}
+.contact-mail input{
+    margin-top: 10px;
+    padding: 10px;
+    background: #151414;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 2px solid white;
+    color: #FFFFFF;
+}
+.footer-form button{
+    width: 110px;
+    height: 40px;
+    margin-top: 15px;
+    margin-right: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #005FAC;
+    color:#FFFFFF;
 
 }
