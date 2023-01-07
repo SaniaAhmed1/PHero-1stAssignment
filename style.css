@@ -1,23 +1,26 @@
-*{
+* {
     margin: 0;
-    padding:0;
+    padding: 0;
     font-family: 'Poppins', sans-serif;
-     /* border: 5px solid red;   */
+    /* border: 5px solid red;   */
 }
-header{
+
+header {
     background-image: url('/images/banner3.png');
     background-size: cover;
     height: 100vh;
 }
+
 /* ading styles to nev menu */
 
-.nev-menu{
-    background: linear-gradient(rgb(179, 190, 212), rgba(76, 0, 255, 0)); 
+.nev-menu {
+    background: linear-gradient(rgb(179, 190, 212), rgba(76, 0, 255, 0));
     display: flex;
     justify-content: space-between;
     align-items: center;
-  
+
 }
+
 .nev-logo {
     border: 5px solid #FFFFFF;
     width: 55px;
@@ -29,100 +32,206 @@ header{
     align-items: center;
     margin: 30px 30px;
 }
-.nev-logo img{
+
+.nev-logo img {
     padding: 5px;
     width: 50px;
     height: 50px;
 }
+
 .nev-list ul li {
     list-style: none;
     text-decoration: none;
-  
+
 }
-.nev-list ul li a{
+
+.nev-list ul li a {
     text-decoration: none;
     font-size: 20px;
     font-style: normal;
-    color:#FFFFFF;
+    color: #FFFFFF;
 }
-.nev-items{
+
+.nev-items {
     display: flex;
     gap: 15px;
-    margin: 30px 30px ;
+    margin: 30px 30px;
 }
+
 /* adding banner styles */
-.banner{
+.banner {
     text-align: right;
-    color:#FFFFFF;
-    margin-left:49%;
+    color: #FFFFFF;
+    margin-left: 49%;
 }
-.banner-title{
+
+.banner-title {
     font-size: 35px;
     font-weight: 700px;
-    padding: 15px;
+    padding: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.banner-title span{
-    padding: 15px;
+
+.banner-title span {
+    padding: 10px;
     color: rgb(22, 97, 167);
     border-radius: 5px;
     background-color: #FFFFFF;
 }
-.banner-description{
+
+.banner-description {
     padding: 10px;
 }
-.banner-btn button{
+
+.banner-btn button {
     width: 100px;
     height: 45px;
-    margin: 10px;
-    margin-right:10px;
-    padding:5px;
+    margin-top: 5px;
+    margin-right: 10px;
+    padding: 10px;
     border: none;
     border-radius: 10px;
     background-color: #FFFFFF;
     color: rgb(22, 97, 167);
+    box-shadow: 10px 5px 5px rgba(23, 23, 26, 0.89);
 }
+
+.banner-btn button:hover {
+    background-color: rgb(22, 97, 167);
+    color: #FFFFFF;
+}
+
 /* adding pre-year acheivement section's styles */
-.pre-year{
-width: 100%;
-margin-top: 45px;
-display: flex;
-justify-content: center;
-align-items: center;
+.pre-year {
+    width: 100%;
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .pre-year-img img {
     width: 75%;
 }
-.pre-year-txt{
+
+.pre-year-txt {
     width: 50%;
 }
-.pre-year-txt h3, .pre-year-txt p {
+
+.pre-year-txt h3,
+.pre-year-txt p {
     margin-bottom: 10px;
     padding: 5px;
 }
-.pre-year-txt p, .pre-year-txt-list-item ul li{
-    color: rgb(104, 95, 95);
+
+.pre-year-txt p,
+.pre-year-txt-list-item ul li {
+    color: rgb(146, 122, 122)
 }
+
 .pre-year-txt-list {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap:5px;
+    gap: 5px;
     flex-direction: row;
-    
+
 }
-.pre-year-txt-check{
+
+.pre-year-txt-check {
     display: flex;
     flex-direction: column;
-   
+
 }
-.pre-year-txt-check img{
+
+.pre-year-txt-check img {
     padding: 5px;
 }
-.pre-year-txt-list ul li{
+
+.pre-year-txt-list ul li {
     text-align: left;
     list-style: none;
     margin: 5px;
     padding: 5px;
+}
+
+/* adding plans style  */
+.plan-sec {
+    text-align: center;
+    margin-top: 110px;
+}
+
+.plan-sec h3 {
+    margin: 70px;
+}
+
+.plans {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.plans h5 {
+    color: rgb(146, 122, 122);
+}
+
+.plan1 img,
+.plan2 img,
+.plan3 img,
+.plan4 img {
+    width: 32px;
+    padding: 5px;
+}
+
+/* linear background added */
+.linear-bg-sec {
+    width: 100%;
+    height: 200px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linear-bg {
+    background: url('/images/linear-bg.jpg'),
+        linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    background-size: cover;
+    background-blend-mode: overlay;
+    padding: 50px;
+    width: 70%;
+    height: 42%;
+    border-radius: 8px;
+    display: flex;
+    align-items: flex-start;
+}
+
+/* .linear-bg-sec-items {
+    margin: 10px;
+    padding: 10px;
+} */
+
+.linear-bg-sec-items h2 {
+    color: #FFFFFF;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.linear-bg-sec-items button {
+    width: 100px;
+    height: 45px;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom:10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    color: rgb(22, 97, 167);
+
 }
