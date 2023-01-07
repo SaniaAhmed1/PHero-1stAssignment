@@ -267,6 +267,7 @@ header {
 .footer-info h3 {
     font-size: 25px;
     font-weight: 700;
+    padding: 5px;
 }
 
 .footer-info p {
@@ -292,6 +293,7 @@ header {
     font-size: 25px;
     font-weight: 700;
     padding-bottom: 15px;
+    text-align: left;
 }
 
 .contact-mail {
