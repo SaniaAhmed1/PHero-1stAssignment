@@ -2,14 +2,17 @@
     margin: 0;
     padding:0;
     font-family: 'Poppins', sans-serif;
-    /* border: 5px solid red;  */
+     /* border: 5px solid red;   */
+}
+header{
+    background-image: url('/images/banner3.png');
+    background-size: cover;
+    height: 100vh;
 }
 /* ading styles to nev menu */
 
 .nev-menu{
-    background: linear-gradient(rgb(148, 157, 185), rgba(76, 0, 255, 0)); 
-    max-width: 100%;
-    max-height: 35 px;
+    background: linear-gradient(rgb(179, 190, 212), rgba(76, 0, 255, 0)); 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,4 +49,80 @@
     display: flex;
     gap: 15px;
     margin: 30px 30px ;
+}
+/* adding banner styles */
+.banner{
+    text-align: right;
+    color:#FFFFFF;
+    margin-left:49%;
+}
+.banner-title{
+    font-size: 35px;
+    font-weight: 700px;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.banner-title span{
+    padding: 15px;
+    color: rgb(22, 97, 167);
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+.banner-description{
+    padding: 10px;
+}
+.banner-btn button{
+    width: 100px;
+    height: 45px;
+    margin: 10px;
+    margin-right:10px;
+    padding:5px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    color: rgb(22, 97, 167);
+}
+/* adding pre-year acheivement section's styles */
+.pre-year{
+width: 100%;
+margin-top: 45px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.pre-year-img img {
+    width: 75%;
+}
+.pre-year-txt{
+    width: 50%;
+}
+.pre-year-txt h3, .pre-year-txt p {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.pre-year-txt p, .pre-year-txt-list-item ul li{
+    color: rgb(104, 95, 95);
+}
+.pre-year-txt-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+    flex-direction: row;
+    
+}
+.pre-year-txt-check{
+    display: flex;
+    flex-direction: column;
+   
+}
+.pre-year-txt-check img{
+    padding: 5px;
+}
+.pre-year-txt-list ul li{
+    text-align: left;
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
 }
