@@ -5,9 +5,13 @@
     /* border: 2px solid red;  */
 }
 
+.min-margin {
+    margin-bottom: 200px;
+}
+
 header {
     background-image: url('./images/banner3.png');
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
 }
@@ -60,7 +64,7 @@ header {
 .banner {
     text-align: right;
     color: #FFFFFF;
-    margin-top:5%;
+    margin-top: 5%;
     margin-left: 55%;
     margin-right: 5%;
     width: 40%;
@@ -76,14 +80,14 @@ header {
 
 .banner-title span {
     padding: 5px;
-    color:  #005FAC;
+    color: #005FAC;
     border-radius: 5px;
     background-color: #FFFFFF;
 }
 
 .banner-description {
     padding: 5px;
-    color:#444343;
+    color: #444343;
 }
 
 .banner-btn button {
@@ -101,7 +105,8 @@ header {
 }
 
 .banner-btn button:hover {
-    background-color:#005FAC;;
+    background-color: #005FAC;
+    ;
     color: #FFFFFF;
 }
 
@@ -142,18 +147,25 @@ header {
 
 }
 
-.pre-year-txt-list ul{
+.pre-year-txt-list ul {
     text-align: left;
+
+    /* used list style property to add an image as a list style  */
+
     list-style: url('./images/icons/correct.png');
-    list-style-position: inside; 
+
+    /* used list-style-position property to specify the position of lis style */
+    list-style-position: inside;
 }
-.pre-year-txt-list ul li{
+
+.pre-year-txt-list ul li {
     padding: 5px;
     border: 1px solid black;
     border-radius: 5px;
     box-shadow: 10px 5px 5px rgba(23, 23, 26, 0.89);
     margin-bottom: 5px;
 }
+
 /* adding plans style  */
 .plan-sec {
     text-align: center;
@@ -174,7 +186,7 @@ header {
 }
 
 .plans h5 {
-    color:#444343;
+    color: #444343;
 }
 
 .plan1 img,
@@ -198,8 +210,8 @@ header {
 
 .linear-bg {
     background: url('./images/watch.png'),
-    linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
-    background-size:cover;
+        linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    background-size: cover;
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-position: right;
@@ -212,9 +224,9 @@ header {
     flex-wrap: wrap;
 }
 
- .linear-bg-sec-items {
+.linear-bg-sec-items {
     margin-top: 5px;
-} 
+}
 
 .linear-bg-sec-items h2 {
     color: #FFFFFF;
@@ -228,14 +240,15 @@ header {
     height: 45px;
     margin-top: 5px;
     margin-right: 10px;
-    margin-bottom:10px;
+    margin-bottom: 10px;
     border: none;
     border-radius: 10px;
     background-color: #FFFFFF;
     color: rgb(22, 97, 167);
 }
+
 /* adding footer styles */
-.footer-sec{
+.footer-sec {
     width: 100%;
     min-height: 100vh;
     background: #151414;
@@ -243,43 +256,49 @@ header {
     display: flex;
     justify-content: space-around;
 }
-.footer-txt{
+
+.footer-txt {
     width: 50%;
     height: auto;
-    margin: 50px 20px 20px  ; 
+    margin: 50px 20px 20px;
     padding: 20px;
 }
-.footer-info h3{
-    font-size:25px;
+
+.footer-info h3 {
+    font-size: 25px;
     font-weight: 700;
 }
 
 .footer-info p {
     font-size: 14px;
-    color:#FFFFFF;
+    color: #FFFFFF;
     padding: 10px;
 }
+
 .footer-icons {
     margin-top: 10px;
     padding: 5px;
     display: flex;
     gap: 10px;
 }
-.footer-form{
+
+.footer-form {
     width: 30%;
     padding: 10px;
-    margin: 50px 20px 20px  ; 
+    margin: 50px 20px 20px;
 }
-.footer-form label{
+
+.footer-form label {
     font-size: 25px;
     font-weight: 700;
     padding-bottom: 15px;
 }
-   
-.contact-mail{
+
+.contact-mail {
     padding: 20px;
 }
-.contact-mail input{
+
+.contact-mail input {
     margin-top: 10px;
     padding: 10px;
     background: #151414;
@@ -288,7 +307,8 @@ header {
     border: 2px solid white;
     color: #FFFFFF;
 }
-.footer-form button{
+
+.footer-form button {
     width: 110px;
     height: 40px;
     margin-top: 15px;
@@ -297,6 +317,14 @@ header {
     border: none;
     border-radius: 10px;
     background-color: #005FAC;
-    color:#FFFFFF;
-
+    color: #FFFFFF;
 }
+
+
+/* what I have customized---
+---favicon
+---nevmenu
+---hover effect in banner button 
+---text decoration in banner
+---added border and box shadow in pre-year-text-list
+ */
